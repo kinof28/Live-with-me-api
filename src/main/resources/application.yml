@@ -1,0 +1,26 @@
+spring:
+  banner:
+    location: "static/banner.txt"
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/live_with_me
+    username: root
+    password:
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    open-in-view: true
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    port: 587
+    username: noq.dev@gmail.com
+    password: N0q2021$
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
